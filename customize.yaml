@@ -1,0 +1,10 @@
+light.tradfri_bulb_e27_ws_opal_980lm:
+  friendly_name: Candeiro Pe
+light.tradfri_bulb_e27_opal_1000lm_4:
+  friendly_name: Lareira Direita
+light.tradfri_bulb_e14_w_opch_400lm_3:
+  friendly_name: Candeeiro Janela
+light.tradfri_bulb_e27_opal_1000lm:
+  friendly_name: Lareira Esquerda
+light.tradfri_bulb_e14_w_opch_400lm_4:
+  friendly_name: Candeeiro Hall

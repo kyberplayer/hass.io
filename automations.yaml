@@ -1,0 +1,22 @@
+- action:
+  - alias: ''
+    data:
+      entity_id: light.tradfri_group
+    service: light.turn_on
+  alias: Luz com o Por do Sol
+  condition: []
+  id: '1522101857397'
+  trigger:
+  - event: sunset
+    platform: sun
+- action:
+  - alias: ''
+    data:
+      entity_id: light.tradfri_group
+    service: light.turn_off
+  alias: Apaga Iluminação Esquecida
+  condition: []
+  id: '1522102060175'
+  trigger:
+  - at: 01:00
+    platform: time
